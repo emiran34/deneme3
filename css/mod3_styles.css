@@ -1,4 +1,4 @@
-.navbar.navbar-light.bg-light {/* custom color for the navbar */
+.navbar.navbar-dark {/* custom color for the navbar */
     background-color: #0387fc;
 }
 .custom-toggler .navbar-toggler-icon { /*getting the hamburger image and changing its color */
