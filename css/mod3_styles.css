@@ -1,0 +1,71 @@
+.navbar.navbar-light.bg-light {/* custom color for the navbar */
+    background-color: #0387fc;
+}
+.custom-toggler .navbar-toggler-icon { /*getting the hamburger image and changing its color */
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,204,51,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler { /* changing color of the border of the button */
+    border-color: #f0ad4e;
+}
+
+.navbar-brand { /*font and size of the Brand name */
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    text-shadow: 1px 1px #222222;
+}
+
+#dropdown-menu,#nav-menu a{ /*making the drop down menu text to be aligned center*/
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Staatliches', cursive;
+    color: #f0ad4e;
+    text-shadow: 1px 1px 1px #66512c;
+}
+
+.menu-item { /* Drop down menu items */
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+#top-title {
+    margin: 25px;
+    font-family: 'Lobster', cursive;
+    color: #ac2925;
+    text-shadow: 1px 1px 2px #6a1a21;
+}
+.menu-content h3, .menu-content p { /*color of the background on the items */
+    background: #b00e92;
+}
+
+.item-name {/* styling the item title */
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: #f0ad4e;
+    text-shadow: 1px 1px 1px #66512c;
+}
+
+.menu-content p { /* formatting the text */
+    color: #000000;
+    padding: 0 15px 20px 20px;
+    text-align: justify;
+    font-family: 'Ubuntu', "times new roman", times, roman, serif;
+}
+
+.menu-content a {
+    color: #eea236;
+    text-shadow: 1px 1px 1px #6c757d;
+    margin-left: 65vw;
+    font-family: 'Acme', sans-serif;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 479px) {
+    .menu-content a{
+        margin-left: 55vw;
+    }
+}
